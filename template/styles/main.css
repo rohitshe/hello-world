@@ -1,0 +1,51 @@
+body {
+    padding-bottom: 0px;
+}
+
+.sidetoc {
+    top: 180px;
+}
+
+.row {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.article {
+    margin-top: 160px;
+}
+
+@media only screen and (max-width: 768px) {
+  .toc-toggle {
+      display: inherit;
+  }
+}
+
+.level1 {
+  margin-top: 5px;
+}
+
+.toc .level3 {
+    font-weight: normal;
+    margin-top: 5px;
+    margin-left: 15px;
+    font-size: 12px;
+}
+
+.toc .level4 {
+    font-weight: normal;
+    margin-top: 5px;
+    margin-left: 15px;
+    font-size: 12px;
+}
+
+.toc .level5 {
+    font-weight: normal;
+    margin-top: 5px;
+    margin-left: 15px;
+    font-size: 12px;
+}
+
+.breadcrumb {
+    margin-bottom: 0px;
+}

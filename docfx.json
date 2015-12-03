@@ -1,0 +1,65 @@
+{
+  "metadata": [
+    {
+      "src": [
+          {
+            "files": [
+              "sources/common/core/SiliconStudio.Core/SiliconStudio.Core.csproj",
+              "sources/common/core/SiliconStudio.Core.IO/SiliconStudio.Core.IO.csproj",
+              "sources/common/core/SiliconStudio.Core.Mathematics/SiliconStudio.Core.Mathematics.csproj",
+              "sources/common/core/SiliconStudio.Core.MicroThreading/SiliconStudio.Core.MicroThreading.csproj",
+              "sources/common/core/SiliconStudio.Core.Serialization/SiliconStudio.Core.Serialization.csproj",
+              "sources/assets/SiliconStudio.Assets/SiliconStudio.Assets.csproj",
+              "sources/engine/SiliconStudio.Xenko/SiliconStudio.Xenko.csproj",
+              "sources/engine/SiliconStudio.Xenko.Audio/SiliconStudio.Xenko.Audio.csproj",
+              "sources/engine/SiliconStudio.Xenko.Engine/SiliconStudio.Xenko.Engine.csproj",
+              "sources/engine/SiliconStudio.Xenko.Games/SiliconStudio.Xenko.Games.csproj",
+              "sources/engine/SiliconStudio.Xenko.Shaders/SiliconStudio.Xenko.Shaders.csproj",
+              "sources/engine/SiliconStudio.Xenko.Graphics/SiliconStudio.Xenko.Graphics.csproj",
+              "sources/engine/SiliconStudio.Xenko.Input/SiliconStudio.Xenko.Input.csproj",
+              "sources/engine/SiliconStudio.Xenko.UI/SiliconStudio.Xenko.UI.csproj",
+            ],
+			"cwd": "../xenko",
+          }
+        ],
+      "dest": "api"
+    }
+  ],
+  "build": {
+    "force": false,
+    "content": [
+      {
+        "files": [
+          "toc.yml", "index.md", "manual/**/*.md", "api/*.md", "api/*.yml"
+        ],
+        "case": false,
+        "noNegate": false,
+        "noExpand": false,
+        "noEscape": false,
+        "noGlobStar": false,
+        "dot": false
+      },
+    ],
+    "resource": [
+      {
+        "files": [
+          "manual/**/images/**",
+        ],
+        "case": false,
+        "noNegate": false,
+        "noExpand": false,
+        "noEscape": false,
+        "noGlobStar": false,
+        "dot": false
+      }
+    ],
+    "globalMetadata": {
+      "_appTitle": "Xenko"
+    },
+    "dest": "_site",
+    "template": [
+      "default", "template"
+    ],
+    "serve": false
+  }
+}
