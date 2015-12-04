@@ -21,6 +21,15 @@ body {
   }
 }
 
+@media only screen and (max-width: 1199px) {
+  .article {
+    margin-top:230px
+  }
+  .sidetoc {
+    top: 250px;
+  }
+}
+
 .level1 {
   margin-top: 5px;
 }
