@@ -5,3 +5,5 @@
   homepage: manual/index.md
 - name: API
   href: api/
+- name: Release Notes
+  href: ReleaseNotes.md

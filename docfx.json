@@ -30,7 +30,7 @@
     "content": [
       {
         "files": [
-          "toc.yml", "index.md", "manual/**/*.md", "api/*.md", "api/*.yml"
+          "toc.yml", "*.md", "manual/**/*.md", "api/*.md", "api/*.yml"
         ],
         "case": false,
         "noNegate": false,
@@ -43,7 +43,7 @@
     "resource": [
       {
         "files": [
-          "manual/**/images/**",
+          "manual/**/images/**", "rn_images/**",
         ],
         "case": false,
         "noNegate": false,

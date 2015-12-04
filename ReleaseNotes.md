@@ -4,7 +4,7 @@
 
 The engine has been renamed Xenko. Here is our new logo, be sure to remember it!
 
-<img src="http://doc.xenko.com/1.4/rn_images/xenko-logo-white.png" align="center" />
+<img src="http://doc.xenko.com/1.4/rn_images/xenko-logo.png" align="center" />
 
 The following changes have been introduced during the renaming and will be automatically applied to your project when opening it in the Game Studio.
 
@@ -16,15 +16,15 @@ In addition, the new Visual Studio integration will not recognize old installati
 
 ## New documentation system
 
-We are aware our documentation isn’t where we need it to be yet, so we’ve decided to take some steps to move things faster. In order to do this, we have migrated our documentation to Sphinx.
+We are aware our documentation isn’t where we need it to be yet, so we’ve decided to take some steps to move things faster. In order to do this, we have migrated our documentation to DocFX.
 
 The new system should provide better readability and more consistent formatting. It also allows us to more easily edit and upload separate documentation for each version of Xenko.
 
 The documentation has its own repository on GitHub: https://github.com/SiliconStudio/xenko-docs
 
-Everybody in the community can now share information by adding edits which will help us to continually improve the documentation. To edit documentation, just click the “Edit on GitHub” button available on every page of the documentation, and submit us pull requests.
+Everybody in the community can now share information by adding edits which will help us to continually improve the documentation. To edit documentation, just click the “Improve this Doc” button available on every page of the documentation, and submit us pull requests.
 
-<img src="http://doc.xenko.com/1.4/rn_images/newdoc-sphinx.png" align="center" />
+<img src="http://doc.xenko.com/1.4/rn_images/newdoc-docfx.png" align="center" />
 
 With your help, we hope to improve the community’s experience with Xenko since this will allow people to share information at a faster pace.
 
